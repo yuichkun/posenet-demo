@@ -97,7 +97,7 @@ async function listVideoDevices() {
 }
 
 const guiState = {
-	algorithm: "single-pose",
+	algorithm: "multi-pose",
 	devices: {
 		videoDevices: []
 	},
