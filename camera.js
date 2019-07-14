@@ -316,7 +316,7 @@ function detectPoseInRealTime(video, net) {
 		// End monitoring code for frames per second
 		stats.end();
 
-		requestAnimationFrame(poseDetectionFrame);
+		setTimeout(poseDetectionFrame, 1000);
 	}
 
 	poseDetectionFrame();
